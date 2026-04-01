@@ -35,7 +35,7 @@ export default function AboutPage() {
             alt="Cocktails at River Street Tavern"
             fill
             className="object-cover"
-            priority
+            preload
           />
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 to-charcoal" />
         </div>

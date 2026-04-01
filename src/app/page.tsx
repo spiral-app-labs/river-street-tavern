@@ -99,19 +99,19 @@ const reviews = [
     rating: 5,
   },
   {
+    text: "The menu is full of familiar sounding bar eats, BUT the quality and freshness of the ingredients was spectacular. The preparations and recipes were imaginative and wonderfully executed.",
+    source: "TripAdvisor",
+    rating: 5,
+  },
+  {
     text: "River Street specializes in customer service, crafted cocktails and Tavern food that is unique and delicious.",
     source: "Yelp",
     rating: 5,
   },
   {
-    text: "Elevated American pub grub, craft beer & taco nights in laid-back digs with weekly karaoke & trivia.",
-    source: "Explore Elgin Area",
-    rating: 5,
-  },
-  {
-    text: "The River Street Tavern has a decent collection of custom burgers and other bar foods in East Dundee's Depot Park restaurant district.",
+    text: "After many many visits to this place, they have become friends more than service staff.",
     source: "TripAdvisor",
-    rating: 4,
+    rating: 5,
   },
 ];
 
@@ -134,7 +134,7 @@ export default function Home() {
             alt="River Street Tavern interior"
             fill
             className="object-cover parallax-hero"
-            priority
+            preload
           />
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-charcoal/60 to-charcoal" />
         </div>
@@ -182,13 +182,24 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Dollar Burger Sundays ── */}
+      <section className="bg-amber py-4 overflow-hidden">
+        <div className="flex animate-marquee whitespace-nowrap">
+          {[...Array(8)].map((_, i) => (
+            <span key={i} className="mx-8 text-charcoal font-bold text-lg uppercase tracking-wider">
+              🍔 Dollar Burger Sundays — $1 Burgers Every Sunday! 🍔
+            </span>
+          ))}
+        </div>
+      </section>
+
       {/* ── Stats ── */}
       <section className="py-16 bg-charcoal-dark">
         <div className="max-w-5xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
-          <Counter end={2017} label="Established" />
-          <Counter end={4} suffix=".6" label="Google Rating" />
-          <Counter end={7000} suffix="+" label="Check-ins" />
-          <Counter end={294} suffix="+" label="Yelp Reviews" />
+          <Counter end={9} suffix="+" label="Years Strong" />
+          <Counter end={4} suffix=".3★" label="Google Rating" />
+          <Counter end={7053} suffix="+" label="Check-ins" />
+          <Counter end={4207} suffix="+" label="Facebook Fans" />
         </div>
       </section>
 
@@ -302,10 +313,10 @@ export default function Home() {
           <Reveal delay={100}>
             <div className="flex justify-center mb-12">
               <div className="bg-charcoal-light border border-amber/20 rounded-2xl px-8 py-5 flex items-center gap-4">
-                <div className="text-4xl font-serif font-bold text-amber">4.6</div>
+                <div className="text-4xl font-serif font-bold text-amber">4.3</div>
                 <div>
-                  <Stars rating={4.6} />
-                  <p className="text-cream/60 text-sm mt-1">1,000+ reviews on Google</p>
+                  <Stars rating={4.3} />
+                  <p className="text-cream/60 text-sm mt-1">294+ reviews on Yelp</p>
                 </div>
               </div>
             </div>

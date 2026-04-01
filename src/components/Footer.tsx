@@ -79,10 +79,10 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="tel:+18478442384"
+                  href="tel:+18478440474"
                   className="text-amber hover:text-amber-light transition-colors"
                 >
-                  (847) 844-2384
+                  (847) 844-0474
                 </a>
               </p>
             </address>

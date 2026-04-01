@@ -57,7 +57,7 @@ const jsonLd = {
   name: "River Street Tavern",
   image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200",
   url: "https://www.rstavern.com",
-  telephone: "+1-847-844-2384",
+  telephone: "+1-847-844-0474",
   address: {
     "@type": "PostalAddress",
     streetAddress: "102 N River St",
@@ -75,8 +75,8 @@ const jsonLd = {
   priceRange: "$$",
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.6",
-    reviewCount: "1000",
+    ratingValue: "4.3",
+    reviewCount: "294",
   },
   openingHoursSpecification: [
     { "@type": "OpeningHoursSpecification", dayOfWeek: "Sunday", opens: "11:00", closes: "01:00" },

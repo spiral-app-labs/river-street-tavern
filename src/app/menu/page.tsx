@@ -111,7 +111,55 @@ const menuData: MenuCategory[] = [
     items: [
       { name: "Smokey Salmon", price: "$17", desc: "Honey sriracha glaze, pineapple pico, cilantro lime rice, power blend", img: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop" },
       { name: "Tequila Lime Chicken", price: "$14", desc: "Tequila lime glaze, roasted seasoned potatoes, steamed broccoli", img: "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=400&h=300&fit=crop" },
-      { name: "Maple Bourbon BBQ Pork", price: "$14", desc: "Maple bourbon BBQ glazed braised pork bowl", img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop" },
+      { name: "Maple Bourbon BBQ Pork", price: "$14", desc: "Roasted potatoes, cheddar, onion strings", img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop" },
+      { name: "Noodle Bowl", price: "$14", desc: "Rice noodles, power blend, red peppers, cilantro, sesame seeds, peanut sauce", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop" },
+      { name: "Burger Bowl", price: "$14", desc: "American cheese, fried egg, teriyaki glaze, cilantro lime rice, power blend", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop" },
+      { name: "BYO Mac", price: "$15", desc: "Cavatapi pasta, four-cheese sauce, parmesan breadcrumbs", img: "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=400&h=300&fit=crop" },
+    ],
+  },
+  {
+    title: "River Street Cantina",
+    subtitle: "Tacos — 4 on corn tortillas with chips & salsa",
+    items: [
+      { name: "Calypso Chicken", price: "$15", desc: "Honey sriracha chicken, pineapple pico, cilantro, chipotle aioli, cotija", img: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop" },
+      { name: "Los Rojos", price: "$14", desc: "Marinated steak, cilantro, pickled red onions", img: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400&h=300&fit=crop" },
+      { name: "Al Pastor", price: "$14", desc: "Braised pork, al pastor sauce, IPA onions, grilled pineapple, cilantro", img: "https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400&h=300&fit=crop" },
+      { name: "Chili Shrimp", price: "$16", desc: "Chili rubbed shrimp, chipotle aioli, cilantro, pico, cotija", img: "https://images.unsplash.com/photo-1611250188496-e966043a0629?w=400&h=300&fit=crop" },
+      { name: "Taco de Papa", price: "$13", desc: "Roasted seasoned Yukon potatoes, napa slaw, pickled red onion, cotija", img: "https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?w=400&h=300&fit=crop" },
+    ],
+  },
+  {
+    title: "Dinner Time",
+    subtitle: "Entrées",
+    items: [
+      { name: "Chimichurri Steak", price: "$24", desc: "10oz steak with red chimichurri over roasted potatoes", img: "https://images.unsplash.com/photo-1558030006-450675393462?w=400&h=300&fit=crop" },
+      { name: "Crab Cakes", price: "$17", desc: "Asian aioli, garlic mashed potatoes, steamed broccoli", img: "https://images.unsplash.com/photo-1559742811-822aa8a0e4e5?w=400&h=300&fit=crop" },
+      { name: "Tipsy Fish and Chips", price: "$15", desc: "Beer battered cod, kettle chips, napa slaw, tartar sauce", img: "https://images.unsplash.com/photo-1579208030886-b1f5b6b4e960?w=400&h=300&fit=crop" },
+    ],
+  },
+  {
+    title: "Sides",
+    subtitle: "Add-ons",
+    items: [
+      { name: "Mac and Cheese", price: "$5", desc: "Creamy four-cheese mac", img: "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=400&h=300&fit=crop" },
+      { name: "Tater Tots", price: "$5", desc: "Crispy golden tots", img: "https://images.unsplash.com/photo-1585325701165-351af045e4e3?w=400&h=300&fit=crop" },
+      { name: "Napa Slaw", price: "$3", desc: "Crisp napa cabbage slaw", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" },
+      { name: "Cilantro Lime Rice", price: "$4", desc: "Fragrant cilantro lime rice", img: "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=400&h=300&fit=crop" },
+      { name: "Power Blend", price: "$4", desc: "Seasonal greens power blend", img: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=400&h=300&fit=crop" },
+      { name: "Mashed Potatoes", price: "$3", desc: "Garlic mashed potatoes", img: "https://images.unsplash.com/photo-1585672840563-f2af2ced55c9?w=400&h=300&fit=crop" },
+      { name: "Roasted Seasoned Potatoes", price: "$4", desc: "Seasoned roasted Yukon potatoes", img: "https://images.unsplash.com/photo-1568569350062-ebfa3cb195df?w=400&h=300&fit=crop" },
+      { name: "Steamed Broccoli", price: "$3", desc: "Fresh steamed broccoli", img: "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=400&h=300&fit=crop" },
+      { name: "Side Salad", price: "$4", desc: "Mixed greens side salad", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" },
+    ],
+  },
+  {
+    title: "Desserts",
+    subtitle: "Sweet Finishes",
+    items: [
+      { name: "Bourbon Caramel Apple Crisp", price: "$8", desc: "Warm apple crisp with bourbon caramel", img: "https://images.unsplash.com/photo-1568571780765-9276ac8b75a2?w=400&h=300&fit=crop" },
+      { name: "Espresso Brownie w/ Nutella Fudge", price: "$8", desc: "Rich espresso brownie topped with Nutella fudge", img: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop" },
+      { name: "Grilled Pineapple Upside Down Cake", price: "$9", desc: "Caramelized grilled pineapple upside down cake", img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop" },
+      { name: "Roy's Chocolate Chip Cookie Treat", price: "$9", desc: "Warm chocolate chip cookie treat", img: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=300&fit=crop" },
     ],
   },
 ];
@@ -149,7 +197,7 @@ export default function MenuPage() {
             alt="Restaurant dining"
             fill
             className="object-cover"
-            priority
+            preload
           />
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 to-charcoal" />
         </div>
@@ -246,6 +294,27 @@ export default function MenuPage() {
           </section>
         ))}
       </div>
+
+      {/* Dollar Burger Sundays */}
+      <section className="py-16 bg-gradient-to-r from-amber-dark via-amber to-amber-dark relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ccircle%20cx%3D%2210%22%20cy%3D%2210%22%20r%3D%222%22%20fill%3D%22%23000%22%2F%3E%3C%2Fsvg%3E')]" />
+        </div>
+        <div className="relative z-10 max-w-3xl mx-auto px-4 text-center">
+          <Reveal>
+            <p className="text-charcoal/70 uppercase tracking-[0.3em] text-sm font-semibold mb-2">Every Sunday</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-charcoal mb-4">
+              $1 Burger Sundays
+            </h2>
+            <p className="text-charcoal/80 text-lg mb-6">
+              You read that right. One dollar burgers, every single Sunday. Grab your crew and come hungry.
+            </p>
+            <a href="tel:+18478440474" className="inline-block bg-charcoal text-amber font-bold px-8 py-3 rounded-md hover:bg-charcoal-dark transition-colors">
+              Call to Reserve
+            </a>
+          </Reveal>
+        </div>
+      </section>
 
       {/* Order CTA */}
       <section className="py-16 bg-charcoal-dark">

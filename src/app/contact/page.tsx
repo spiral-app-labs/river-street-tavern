@@ -44,7 +44,7 @@ export default function ContactPage() {
             alt="River Street Tavern"
             fill
             className="object-cover"
-            priority
+            preload
           />
           <div className="absolute inset-0 bg-gradient-to-b from-charcoal/90 to-charcoal" />
         </div>
@@ -99,10 +99,10 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-cream mb-1">Phone</h3>
                       <a
-                        href="tel:+18478442384"
+                        href="tel:+18478440474"
                         className="text-amber hover:text-amber-light transition-colors text-lg"
                       >
-                        (847) 844-2384
+                        (847) 844-0474
                       </a>
                     </div>
                   </div>
@@ -135,7 +135,7 @@ export default function ContactPage() {
             <Reveal delay={200}>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="tel:+18478442384"
+                  href="tel:+18478440474"
                   className="btn-primary text-center"
                 >
                   Call Us
