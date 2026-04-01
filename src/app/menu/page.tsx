@@ -93,6 +93,7 @@ const menuData: MenuCategory[] = [
       { name: "Smoked Corned Beef", price: "$15", desc: "House smoked, swiss, pickles, horseradish dijon on rye", img: "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?w=400&h=300&fit=crop" },
       { name: "Southern Chicken", price: "$15", desc: "Crispy chicken, Nashville hot sauce, pickles, napa slaw, cheddar on brioche", img: "https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=400&h=300&fit=crop" },
       { name: "Turkey Club", price: "$14", desc: "House smoked turkey, provolone, bacon, spring mix, tomatoes, chipotle aioli on pita", img: "https://images.unsplash.com/photo-1567234669003-dce7a7a88821?w=400&h=300&fit=crop" },
+      { name: "Reuben", price: "$16", desc: "House smoked corned beef, swiss, sauerkraut, thousand island on rye", img: "https://images.unsplash.com/photo-1619096252214-ef06c45683e3?w=400&h=300&fit=crop" },
     ],
   },
   {
@@ -150,6 +151,9 @@ const menuData: MenuCategory[] = [
       { name: "Roasted Seasoned Potatoes", price: "$4", desc: "Seasoned roasted Yukon potatoes", img: "https://images.unsplash.com/photo-1568569350062-ebfa3cb195df?w=400&h=300&fit=crop" },
       { name: "Steamed Broccoli", price: "$3", desc: "Fresh steamed broccoli", img: "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=400&h=300&fit=crop" },
       { name: "Side Salad", price: "$4", desc: "Mixed greens side salad", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop" },
+      { name: "Mandarin Oranges", price: "$3", desc: "Sweet mandarin orange segments", img: "https://images.unsplash.com/photo-1547514701-42782101795e?w=400&h=300&fit=crop" },
+      { name: "Basket Fries", price: "$5", desc: "Crispy golden basket fries", img: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop" },
+      { name: "Kettle Chips", price: "$5", desc: "House-made kettle chips", img: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400&h=300&fit=crop" },
     ],
   },
   {
@@ -160,6 +164,19 @@ const menuData: MenuCategory[] = [
       { name: "Espresso Brownie w/ Nutella Fudge", price: "$8", desc: "Rich espresso brownie topped with Nutella fudge", img: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop" },
       { name: "Grilled Pineapple Upside Down Cake", price: "$9", desc: "Caramelized grilled pineapple upside down cake", img: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop" },
       { name: "Roy's Chocolate Chip Cookie Treat", price: "$9", desc: "Warm chocolate chip cookie treat", img: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400&h=300&fit=crop" },
+    ],
+  },
+  {
+    title: "Little Ones",
+    subtitle: "Kids Menu",
+    items: [
+      { name: "Kids Fingers", price: "$8", desc: "Chicken tenders with fries", img: "https://images.unsplash.com/photo-1585325701165-351af045e4e3?w=400&h=300&fit=crop" },
+      { name: "Kids Cheeseburgers", price: "$8", desc: "Cheeseburger with fries", img: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=400&h=300&fit=crop" },
+      { name: "Kids Hamburgers", price: "$8", desc: "Hamburger with fries", img: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop" },
+      { name: "Kids Grilled Cheese", price: "$8", desc: "Classic grilled cheese with fries", img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400&h=300&fit=crop" },
+      { name: "Kids Corn Dogs", price: "$8", desc: "Corn dogs with fries", img: "https://images.unsplash.com/photo-1585325701165-351af045e4e3?w=400&h=300&fit=crop" },
+      { name: "Kids Mac and Cheese", price: "$8", desc: "Creamy mac and cheese", img: "https://images.unsplash.com/photo-1543339494-b4cd4f7ba686?w=400&h=300&fit=crop" },
+      { name: "Kids Buttered Noodles", price: "$8", desc: "Buttered noodles", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400&h=300&fit=crop" },
     ],
   },
 ];
