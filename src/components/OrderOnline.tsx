@@ -41,6 +41,17 @@ export default function OrderOnline() {
               Order on DoorDash
             </motion.a>
 
+            <motion.a
+              href="https://www.ubereats.com/store/river-street-tavern/LhejvC46SWOiGs4j5rqtuw"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.04, y: -3 }}
+              whileTap={{ scale: 0.97 }}
+              className="flex items-center justify-center gap-3 bg-[#06C167] text-white font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:bg-green-600 hover:shadow-green-500/30 hover:shadow-2xl transition-all"
+            >
+              🛵 Order on Uber Eats
+            </motion.a>
+
             <motion.div
               whileHover={{ scale: 1.04, y: -3 }}
               whileTap={{ scale: 0.97 }}
